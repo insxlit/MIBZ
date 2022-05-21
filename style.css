@@ -1,0 +1,118 @@
+body{
+  background-color: lightblue;
+}
+
+h1 {
+  color: darkblue;
+  font-size: 64px;
+  font-family: 'Poiret One', cursive;
+}
+
+p {
+  color:red;
+  font-size:30px;
+  font-family: 'Poiret One', cursive;
+  margin-right: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+.menu{
+  display: flex;
+  justify-content: right;
+
+}
+
+
+.header_content{
+display: flex;
+}
+
+.header_image{
+  height: 50px;
+  width: 90%;
+  margin-left: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main {
+  background: #E6E6FA;
+}
+
+
+  .main_content{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .main_image{
+    width: 300px;
+  }
+
+  .main_text{
+    color:darkblue;
+    font-size:20px;
+    font-family: 'Poiret One', cursive;
+    margin-right: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 64px;
+    width: 450px
+  }
+
+  .works{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .about_text1{
+    color:darkblue;
+    font-size:20px;
+    font-family: 'Poiret One', cursive;
+    margin-right: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 64px;
+    width: 450px;
+    }
+    .about_text2{
+      color:darkblue;
+      font-size:20px;
+      font-family: 'Poiret One', cursive;
+      margin-top: 30px;
+
+
+    }
+    .about_image{
+      width: 500px;
+    }
+
+.about_line1{
+  display: flex;
+  justify-content: center;
+  margin-left: 5%
+}
+
+.about {
+    background: #E6E6FA;
+}
+
+.more{
+  width: 300px;
+  height: 50px;
+  font-size: 32px;
+  font-family: 'Poiret One', cursive;
+  color: #0000FF;
+  background-color: #00FF00;
+  border: #00FF00;
+}
